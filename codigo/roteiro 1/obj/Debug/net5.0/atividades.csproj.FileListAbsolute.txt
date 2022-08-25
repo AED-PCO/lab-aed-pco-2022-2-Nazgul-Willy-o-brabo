@@ -1,0 +1,16 @@
+C:\Users\willy\Desktop\roteiro 1\bin\Debug\net5.0\atividades.exe
+C:\Users\willy\Desktop\roteiro 1\bin\Debug\net5.0\atividades.deps.json
+C:\Users\willy\Desktop\roteiro 1\bin\Debug\net5.0\atividades.runtimeconfig.json
+C:\Users\willy\Desktop\roteiro 1\bin\Debug\net5.0\atividades.runtimeconfig.dev.json
+C:\Users\willy\Desktop\roteiro 1\bin\Debug\net5.0\atividades.dll
+C:\Users\willy\Desktop\roteiro 1\bin\Debug\net5.0\atividades.pdb
+C:\Users\willy\Desktop\roteiro 1\obj\Debug\net5.0\atividades.csproj.AssemblyReference.cache
+C:\Users\willy\Desktop\roteiro 1\obj\Debug\net5.0\atividades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willy\Desktop\roteiro 1\obj\Debug\net5.0\atividades.AssemblyInfoInputs.cache
+C:\Users\willy\Desktop\roteiro 1\obj\Debug\net5.0\atividades.AssemblyInfo.cs
+C:\Users\willy\Desktop\roteiro 1\obj\Debug\net5.0\atividades.csproj.CoreCompileInputs.cache
+C:\Users\willy\Desktop\roteiro 1\obj\Debug\net5.0\atividades.dll
+C:\Users\willy\Desktop\roteiro 1\obj\Debug\net5.0\refint\atividades.dll
+C:\Users\willy\Desktop\roteiro 1\obj\Debug\net5.0\atividades.pdb
+C:\Users\willy\Desktop\roteiro 1\obj\Debug\net5.0\atividades.genruntimeconfig.cache
+C:\Users\willy\Desktop\roteiro 1\obj\Debug\net5.0\ref\atividades.dll
