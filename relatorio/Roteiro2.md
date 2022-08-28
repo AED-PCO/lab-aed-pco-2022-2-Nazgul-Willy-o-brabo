@@ -1,17 +1,3 @@
-*Atividade 01*
-  Enunciado
------------------
-01- 
-
-
-*metodo de resolução*
---
-
-
-*em execução*
---
-zzzzzzzzzzzzzzzzzzzzz
-
 # Documentação da aula de laboratório
 *Atividade 01*
   Enunciado
