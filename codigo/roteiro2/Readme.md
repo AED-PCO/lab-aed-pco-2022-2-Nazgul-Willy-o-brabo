@@ -4,8 +4,9 @@ namespace atv_recursiva
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+      *  static void Main(string[] args)*
+       
+       {
             Console.Write("selecione a atividade: ");
             int op = int.Parse(Console.ReadLine());
             switch (op)
