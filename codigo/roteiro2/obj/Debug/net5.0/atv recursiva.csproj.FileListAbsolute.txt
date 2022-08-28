@@ -1,0 +1,16 @@
+C:\Users\willy\Desktop\atv recursiva\bin\Debug\net5.0\atv recursiva.exe
+C:\Users\willy\Desktop\atv recursiva\bin\Debug\net5.0\atv recursiva.deps.json
+C:\Users\willy\Desktop\atv recursiva\bin\Debug\net5.0\atv recursiva.runtimeconfig.json
+C:\Users\willy\Desktop\atv recursiva\bin\Debug\net5.0\atv recursiva.runtimeconfig.dev.json
+C:\Users\willy\Desktop\atv recursiva\bin\Debug\net5.0\atv recursiva.dll
+C:\Users\willy\Desktop\atv recursiva\bin\Debug\net5.0\atv recursiva.pdb
+C:\Users\willy\Desktop\atv recursiva\obj\Debug\net5.0\atv recursiva.csproj.AssemblyReference.cache
+C:\Users\willy\Desktop\atv recursiva\obj\Debug\net5.0\atv recursiva.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willy\Desktop\atv recursiva\obj\Debug\net5.0\atv recursiva.AssemblyInfoInputs.cache
+C:\Users\willy\Desktop\atv recursiva\obj\Debug\net5.0\atv recursiva.AssemblyInfo.cs
+C:\Users\willy\Desktop\atv recursiva\obj\Debug\net5.0\atv recursiva.csproj.CoreCompileInputs.cache
+C:\Users\willy\Desktop\atv recursiva\obj\Debug\net5.0\atv recursiva.dll
+C:\Users\willy\Desktop\atv recursiva\obj\Debug\net5.0\refint\atv recursiva.dll
+C:\Users\willy\Desktop\atv recursiva\obj\Debug\net5.0\atv recursiva.pdb
+C:\Users\willy\Desktop\atv recursiva\obj\Debug\net5.0\atv recursiva.genruntimeconfig.cache
+C:\Users\willy\Desktop\atv recursiva\obj\Debug\net5.0\ref\atv recursiva.dll
