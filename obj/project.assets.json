@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Willy\\Source\\Repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\Willy\\Source\\Repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Willy\\Source\\Repos\\AED-PCO\\lab-aed-pco-2022-2-Nazgul-Willy-o-brabo\\lab-aed-pco-2022-2-Nazgul-Willy-o-brabo.csproj",
+      "projectName": "lab-aed-pco-2022-2-Nazgul-Willy-o-brabo",
+      "projectPath": "C:\\Users\\Willy\\Source\\Repos\\AED-PCO\\lab-aed-pco-2022-2-Nazgul-Willy-o-brabo\\lab-aed-pco-2022-2-Nazgul-Willy-o-brabo.csproj",
       "packagesPath": "C:\\Users\\Willy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Willy\\Source\\Repos\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\Willy\\Source\\Repos\\AED-PCO\\lab-aed-pco-2022-2-Nazgul-Willy-o-brabo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Willy\\AppData\\Roaming\\NuGet\\NuGet.Config",

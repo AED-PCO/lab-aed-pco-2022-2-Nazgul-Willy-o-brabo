@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("roteiro3")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("lab-aed-pco-2022-2-Nazgul-Willy-o-brabo")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("roteiro3")]
-[assembly: System.Reflection.AssemblyTitleAttribute("roteiro3")]
+[assembly: System.Reflection.AssemblyProductAttribute("lab-aed-pco-2022-2-Nazgul-Willy-o-brabo")]
+[assembly: System.Reflection.AssemblyTitleAttribute("lab-aed-pco-2022-2-Nazgul-Willy-o-brabo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

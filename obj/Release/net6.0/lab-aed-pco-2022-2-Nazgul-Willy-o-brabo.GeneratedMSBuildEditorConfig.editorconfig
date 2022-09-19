@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = roteiro3
-build_property.ProjectDir = C:\Users\Willy\Source\Repos\lab-aed-pco-2022-2-Nazgul-Willy-o-brabo\codigo\roteiro3\
+build_property.RootNamespace = lab_aed_pco_2022_2_Nazgul_Willy_o_brabo
+build_property.ProjectDir = C:\Users\Willy\Source\Repos\AED-PCO\lab-aed-pco-2022-2-Nazgul-Willy-o-brabo\
