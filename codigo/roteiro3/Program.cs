@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("selecione a atividade");
+﻿Console.WriteLine("selecione a atividade");
 int op = int.Parse(Console.ReadLine());
 switch (op)
 {
@@ -16,103 +15,117 @@ switch (op)
         atv04();
         break;
 }
+Console.ReadKey();
+Console.Clear();
 static void atv01()
 {
+        Random rd = new Random();
+        Console.WriteLine("vetores ordenados");
+        int[] vetor = new int[10];
+        for (int i = 0; i < vetor.Length; i++)
+        {
+            vetor[i] = rd.Next(0, 1000);
+        }
+        ord_parcial(vetor, 0, vetor.Length - 1);            // PERGUNTAR PQ O ESQ=VETOR[0] DÁ ERRADO
+        for (int i = 0; i < vetor.Length; i++)
+        {
+            Console.WriteLine(vetor[i]);
+        }
 
-
-    Console.Write("\nProgram for sorting a numeric array using Merge Sorting");
-    Console.Write("\n\nEnter number of elements: ");
-    int max = Convert.ToInt32(Console.ReadLine());
-    int[] numbers = new int[max];
-    for (int i = 0; i < max; i++)
-    {
-        Console.Write("\nEnter [" + (i + 1).ToString() + "] element: ");
-        numbers[i] = Convert.ToInt32(Console.ReadLine());
     }
-    Console.Write("Input int array : ");
-    Console.Write("\n");
-    for (int k = 0; k < max; k++)
+    static void ord_parcial(int[] vet, int esq, int dir)
     {
-        Console.Write(numbers[k] + " ");
-        Console.Write("\n");
+        int meio;
+        if (dir > esq)
+        {
+            meio = (dir + esq) / 2;
+            ord_parcial(vet, esq, meio);        // vetorA
+            ord_parcial(vet, (meio + 1), dir);      // VetorB
+            ordenacao(vet, esq, (meio + 1), dir);
+        }
+
     }
-    Console.WriteLine("MergeSort By Recursive Method");
-    SortMerge(numbers, 0, max - 1);
-    for (int i = 0; i < max; i++)
-        Console.WriteLine(numbers[i]);
-    Console.ReadLine();
-
-
+    static void ordenacao(int[] vet, int esq, int meio, int dir)
+    {
+        int[] aux = new int[vet.Length];
+        int meioEsq = (meio - 1);         // - PERGUNTAR PQ USANDO VARIAVEL DÁ CERTO E COLOCANDO SO A LOGICA NÃO
+        int pos = esq; int num = (dir - esq + 1);
+        while ((esq <= meioEsq) && (meio <= dir))
+        {
+            if (vet[esq] <= vet[meio])
+                aux[pos++] = vet[esq++];
+            else
+                aux[pos++] = vet[meio++];
+        }
+        while (esq <= meioEsq)
+            aux[pos++] = vet[esq++];
+        while (meio <= dir)
+            aux[pos++] = vet[meio++];
+        for (int i = 0; i < num; i++)
+        {
+            vet[dir] = aux[dir];
+            dir--;
+        }
+    }
+static void atv02() {
+    Random rd = new Random();
+    Console.WriteLine("vetores ordenados by: willy Loko");
+    int[] vetor = new int[10];
+    for (int i = 0; i < vetor.Length; i++)
+    {
+        vetor[i] = rd.Next(0, 1000);
+    }
+    ord_parcial(vetor, 0, vetor.Length - 1);            // PERGUNTAR PQ O ESQ=VETOR[0] DÁ ERRADO
+    for (int i = 0; i < vetor.Length; i++)
+    {
+        Console.WriteLine("seu numero na posição {0} é: {1}",i,vetor[i]);
+    }
 }
-static void MainMerge(int[] numbers, int left, int mid, int right)
-{
-    int[] temp = new int[25];
-    int i, eol, num, pos;
-    eol = (mid - 1);
-    pos = left;
-    num = (right - left + 1);
-
-    while ((left <= eol) && (mid <= right))
-    {
-        if (numbers[left] <= numbers[mid])
-            temp[pos++] = numbers[left++];
-        else
-            temp[pos++] = numbers[mid++];
-    }
-    while (left <= eol)
-        temp[pos++] = numbers[left++];
-    while (mid <= right)
-        temp[pos++] = numbers[mid++];
-    for (i = 0; i < num; i++)
-    {
-        numbers[right] = temp[right];
-        right--;
-    }
-}
-static void SortMerge(int[] numbers, int left, int right)
-{
-    int mid;
-    if (right > left)
-    {
-        mid = (right + left) / 2;
-        SortMerge(numbers, left, mid);
-        SortMerge(numbers, (mid + 1), right);
-        MainMerge(numbers, left, (mid + 1), right);
-    }
-}
-
-static void atv02() { }
 static void atv03()
 {
-}
-static void atv04()
-{
     Console.WriteLine("Pesquisa binaria sem pos\ndigite um numero");
-    int cont = 0;
     int num = int.Parse(Console.ReadLine());
     int[] vetor = new int[8] { 1, 2, 3, 4, 5, 6, 7, 8 };
     int inicio = vetor[0];
     int fim = vetor.Length - 1;
-    Console.WriteLine(pesquisa(num, vetor, inicio, fim, cont));
-    Console.WriteLine("contador em {0}", cont);
+    int pesq = pesquisa(num, vetor, inicio, fim);
+    if (pesq != -1)
+    {
+        Console.WriteLine("seu numero no vetor foi encontrado {0}, na posição {1} ",pesq , vetor[pesq]);
+    }
+    else
+        Console.WriteLine("Seu numero não foi encontrado");
 }
-static int pesquisa(int num, int[] vetor, int inicio, int fim, int cont)
+static void atv04()
+{
+    Console.WriteLine("Pesquisa binaria sem pos\ndigite um numero");
+    int num = int.Parse(Console.ReadLine());
+    int[] vetor = new int[8] { 1, 2, 3, 4, 5, 6, 7, 8 };
+    int inicio = vetor[0];
+    int fim = vetor.Length - 1;
+    int pesq = pesquisa(num, vetor, inicio, fim);
+    if (pesq != -1)
+    {
+    Console.WriteLine("seu numero no vetor foi encontrado: ");
+    }
+    else
+        Console.WriteLine("Seu numero não foi encontrado");
+}
+static int pesquisa(int num, int[] vetor, int inicio, int fim)
 {
     int meio = (inicio + fim) / 2;
     if (inicio > fim)
     {
-        cont++;
         return -1;
     }
     else if (vetor[meio] == num)
     {
-        cont++;
         return vetor[meio];
     }
     else if (num > vetor[meio])
     {
-        return pesquisa(num, vetor, meio + 1, fim, cont++);
+        return pesquisa(num, vetor, meio + 1, fim);
     }
     else
-        return pesquisa(num, vetor, inicio, meio - 1, cont++);
+        return pesquisa(num, vetor, inicio, meio - 1);
 }

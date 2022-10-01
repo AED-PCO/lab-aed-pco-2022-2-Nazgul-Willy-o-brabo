@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Willy\\Source\\Repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\willy\\Source\\Repos\\AED-PCO\\lab-aed-pco-2022-2-Nazgul-Willy-o-brabo\\codigo\\roteiro3\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Willy\\Source\\Repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\willy\\Source\\Repos\\AED-PCO\\lab-aed-pco-2022-2-Nazgul-Willy-o-brabo\\codigo\\roteiro3\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Willy\\Source\\Repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\willy\\Source\\Repos\\AED-PCO\\lab-aed-pco-2022-2-Nazgul-Willy-o-brabo\\codigo\\roteiro3\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\Willy\\Source\\Repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-        "packagesPath": "C:\\Users\\Willy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Willy\\Source\\Repos\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "projectPath": "C:\\Users\\willy\\Source\\Repos\\AED-PCO\\lab-aed-pco-2022-2-Nazgul-Willy-o-brabo\\codigo\\roteiro3\\ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\willy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willy\\Source\\Repos\\AED-PCO\\lab-aed-pco-2022-2-Nazgul-Willy-o-brabo\\codigo\\roteiro3\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Willy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\willy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
