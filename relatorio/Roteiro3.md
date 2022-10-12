@@ -1,45 +1,48 @@
-# DocumentaÁ„o da aula de laboratÛrio
+# Documenta√ß√£o da aula de laborat√≥rio
 *Atividade 01*
   Enunciado
 -----------------
-01 - vetores ordenados SEM pÛs
+01 - vetores ordenados SEM p√≥s
 
-*Metodo de resoluÁ„o*
+*Metodo de resolu√ß√£o*
 --
->Utilizei primeiramente duas chamadas recursivas para dividir tanto para a direita quanto para a esqueda do vetor, e apÛs uma nova chamada, comparando entre as posiÁıes e porfim ordenando o vetor
+>Utilizei primeiramente duas chamadas recursivas para dividir tanto para a direita quanto para a esqueda do vetor, e ap√≥s uma nova chamada, comparando entre as posi√ß√µes e porfim ordenando o vetor
 
-*em execuÁ„o*
+*em execu√ß√£o*
+![image](https://user-images.githubusercontent.com/101759293/195433437-54ef6429-6e49-41b2-ae3a-0e7213a63add.png)
 
 *Atividade 02*
   Enunciado
 -----------------
 01 - vetores ordenados COM pos
 
-*Metodo de resoluÁ„o*
+*Metodo de resolu√ß√£o*
 --
->Utilizei primeiramente duas chamadas recursivas para dividir tanto para a direita quanto para a esqueda do vetor, e apÛs uma nova chamada, comparando entre as posiÁıes e porfim ordenando o vetor
+>Utilizei primeiramente duas chamadas recursivas para dividir tanto para a direita quanto para a esqueda do vetor, e ap√≥s uma nova chamada, comparando entre as posi√ß√µes e porfim ordenando o vetor
 
-*em execuÁ„o*
+*em execu√ß√£o*
+![image](https://user-images.githubusercontent.com/101759293/195434111-828b8e5d-f38a-4daf-90d2-b1d5aa87de88.png)
 
 *Atividade 03*
   Enunciado
 -----------------
-01 - Pesquisa binaria SEM pos
+01 - Pesquisa binaria COM pos
 
-*Metodo de resoluÁ„o*
+*Metodo de resolu√ß√£o*
 --
->Utilizando uma logica de procura em vetor, o usuario digita o numero no qual quer pesquisar e porfim È retornado o valor(caso exista) e caso contrario È retornado uma mensagem de que n„o foi encontrado
+>Utilizando uma logica de procura em vetor, o usuario digita o numero no qual quer pesquisar e porfim √© retornado o valor(caso exista) junto a sua posi√ß√£o, e caso contrario √© retornado uma mensagem de que n√£o foi encontrado
 
-*em execuÁ„o*
+*em execu√ß√£o*
+![image](https://user-images.githubusercontent.com/101759293/195434198-9b233626-2476-4638-9dcf-82c69857dcf7.png)
 
 *Atividade 04*
   Enunciado
 -----------------
-01 - Pesquisa binaria COM pos
+01 - Pesquisa binaria SEM pos
 
-*Metodo de resoluÁ„o*
+*Metodo de resolu√ß√£o*
 --
->Utilizando uma logica de procura em vetor, o usuario digita o numero no qual quer pesquisar e porfim È retornado o valor(caso exista) junto a sua posiÁ„o, e caso contrario È retornado uma mensagem de que n„o foi encontrado
+>Utilizando uma logica de procura em vetor, o usuario digita o numero no qual quer pesquisar e porfim √© retornado o valor(caso exista), e caso contrario √© retornado uma mensagem de que n√£o foi encontrado
 
-*em execuÁ„o*
-
+*em execu√ß√£o*
+![image](https://user-images.githubusercontent.com/101759293/195434337-005ec2df-86e4-4b50-b70d-649ed06d195c.png)
