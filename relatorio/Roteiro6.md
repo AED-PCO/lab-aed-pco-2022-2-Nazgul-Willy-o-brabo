@@ -81,6 +81,6 @@
 
 --
 
-OBS#1: Merge sort está no roteiro 3, na ordenação BINARRIA
+OBS#1: Merge sort está no roteiro 3, na ordenação BINARIA
 
 OBS#2: Por algum BUG do visual studio, ao executar pelo depurador, ele fecha insta, não mostrando os resultados, então usei pelo terminal :)
