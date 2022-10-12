@@ -1,68 +1,85 @@
-# DocumentaÁ„o da aula de laboratÛrio
+# Documenta√ß√£o da aula de laborat√≥rio
 *Atividade 01*
   Enunciado
 -----------------
 01 - BUBBLE sort
 
-*Metodo de resoluÁ„o*
+*Metodo de resolu√ß√£o*
 --
->Foi utilizado uma tatica de pegar o ultimo valor como referencia, e apÛs a leitura de todo array do valor de referencia, se diminui o valor de referencia e novamente repete o ciclo de leitura atÈ o fim, trazendo ja ordenado
+>Foi utilizado uma tatica de pegar o ultimo valor como referencia, e ap√≥s a leitura de todo array do valor de referencia, se diminui o valor de referencia e novamente repete o ciclo de leitura at√© o fim, trazendo ja ordenado
 
-*em execuÁ„o*
+*em execu√ß√£o*
+
+![image](https://user-images.githubusercontent.com/101759293/195437615-5d5286ef-d992-432e-b905-ac9713d3c610.png)
 
 *Atividade 02*
   Enunciado
 -----------------
 02 - SELECTION sort
 
-*Metodo de resoluÁ„o*
+*Metodo de resolu√ß√£o*
 --
->Foi utilizado um valor de referencia incial, onde com ele, È percorrido todo o vetor, pegando o menor valor encontrado, e trocando com o valor de referencia, alterando apÛs isso o valor de referencia, se repetindo o ciclo.
+>Foi utilizado um valor de referencia incial, onde com ele, √© percorrido todo o vetor, pegando o menor valor encontrado, e trocando com o valor de referencia, alterando ap√≥s isso o valor de referencia, se repetindo o ciclo.
 
-*em execuÁ„o*
+*em execu√ß√£o*
+
+![image](https://user-images.githubusercontent.com/101759293/195437721-10a0e10c-ef80-4768-8b02-d4fd610f4c94.png)
 
 *Atividade 03*
   Enunciado
 -----------------
 03 - INSERT sort
 
-*Metodo de resoluÁ„o*
+*Metodo de resolu√ß√£o*
 --
->Foi pego um valor de referencia, e apÛs isso, È verificado no vetor atÈ onde ele È maior, e ao descobrir um valor menor que ele, ele troca todos os valores posteriores atÈ chegar na posiÁ„o correta de inserÁ„o
+>Foi pego um valor de referencia, e ap√≥s isso, √© verificado no vetor at√© onde ele √© maior, e ao descobrir um valor menor que ele, ele troca todos os valores posteriores at√© chegar na posi√ß√£o correta de inser√ß√£o
 
-*em execuÁ„o*
+*em execu√ß√£o*
+
+![image](https://user-images.githubusercontent.com/101759293/195437817-9acac838-6bdc-4150-ab1a-8b1dd3f2888e.png)
 
 *Atividade 04*
   Enunciado
 -----------------
 04 - QUICK sort
 
-*Metodo de resoluÁ„o*
+*Metodo de resolu√ß√£o*
 --
->Meu metodo de resoluÁ„o foi, pegar o primeiro valor como pivot e, comparar a primeira e a ultima posiÁ„o trocando os menores com maiores, deixando os menores ‡ esquerda e os maiores a direita, atÈ se encerrar no meio do vetor, apÛs isso, o ciclo vai se repetindo com os subvetores atÈ a ordenaÁ„o ser concluida.
+>Meu metodo de resolu√ß√£o foi, pegar o primeiro valor como pivot e, comparar a primeira e a ultima posi√ß√£o trocando os menores com maiores, deixando os menores √† esquerda e os maiores a direita, at√© se encerrar no meio do vetor, ap√≥s isso, o ciclo vai se repetindo com os subvetores at√© a ordena√ß√£o ser concluida.
 
-*em execuÁ„o*
+*em execu√ß√£o*
+
+![image](https://user-images.githubusercontent.com/101759293/195437973-85de7fd3-cfcc-4dfb-b507-19e3cf22a422.png)
+
 
 *Atividade 05*
   Enunciado
 -----------------
 05 - SHELL sort
 
-*Metodo de resoluÁ„o*
+*Metodo de resolu√ß√£o*
 --
->Utilizando uma referencia de pulo de 3 em 3, fui utilizando para comparar os valores de 3 em 3 atÈ o fim do vetor, apÛs terminar, ele entra em condiÁıes para dividir pela metade o tamanho do pulo, atÈ a ordenaÁ„o se tornar completa.
+>Utilizando uma referencia de pulo de 3 em 3, fui utilizando para comparar os valores de 3 em 3 at√© o fim do vetor, ap√≥s terminar, ele entra em condi√ß√µes para dividir pela metade o tamanho do pulo, at√© a ordena√ß√£o se tornar completa.
 
-*em execuÁ„o*
+*em execu√ß√£o*
+
+![image](https://user-images.githubusercontent.com/101759293/195438051-9e1d4abb-9632-4543-a1bc-ce00c99f31de.png)
 
 *Atividade 06*
   Enunciado
 -----------------
 06 - CONTAGE sort
 
-*Metodo de resoluÁ„o*
+*Metodo de resolu√ß√£o*
 --
->Utilizando uma funÁ„o para descobrir o maior valor do vetor, e apÛs isso, realizar uma contagem de quantidade de vezes que o mesmo numero aparece no vetor, apÛs isso ele se ordena de forma crescente usando os numeros de valorMaximo
+>Utilizando uma fun√ß√£o para descobrir o maior valor do vetor, e ap√≥s isso, realizar uma contagem de quantidade de vezes que o mesmo numero aparece no vetor, ap√≥s isso ele se ordena de forma crescente usando os numeros de valorMaximo
 
-*em execuÁ„o*
+*em execu√ß√£o*
+
+![image](https://user-images.githubusercontent.com/101759293/195438170-355262ea-30a0-4c4a-bc17-19192d8116e4.png)
 
 
+--
+>Merge sort est√° no roteiro 3, na ordena√ß√£o BINARRIA
+
+OBS: Por algum BUG do visual studio, ao executar pelo depurador, ele fecha insta, n√£o mostrando os resultados, ent√£o usei pelo terminal :)
