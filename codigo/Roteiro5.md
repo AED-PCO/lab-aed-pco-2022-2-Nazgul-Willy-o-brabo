@@ -10,7 +10,7 @@ public int alg1(int n){
 }
 ~~~
 * Operação mais relevante: Repetição
-* Operações: Atribuição, Comparação, Multiplicação, Repetição.
+* Operações: Atribuição, Comparação, Multiplicação, Repetição, subtração.
 * Variação de casos: </br>
 Pior caso: O(n) </br>
 Medio caso: 2n + 1 / 2 / n = N </br>
@@ -26,7 +26,7 @@ public int alg2(int[] arr, int x){
 }
 ~~~
 * Operação mais relevante: Repetição
-* Operações: Atribuição, Comparação, condição, Repetição.
+* Operações: Atribuição, Comparação, condição, Repetição, somatorio.
 * Variação de casos: </br>
 Pior caso: O(n) </br>
 Medio caso: (n-1)+n+1/2/n == 2n = N </br>
@@ -65,8 +65,8 @@ public double[] alg4(int[] dados){
     return vet;     //1
 }
 ~~~
-* Operação mais relevante: 
-* Operações: 
+* Operação mais relevante: repetição
+* Operações: repetição, atribuição, comparação, somatorio, divisão
 * Variação de casos: </br>
 Pior caso: O(n^2) </br>
 Medio caso: 2+n^2-2+2n == n^2+n </br>
