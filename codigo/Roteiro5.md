@@ -13,8 +13,8 @@ public int alg1(int n){
 * Operações: Atribuição, Comparação, Multiplicação, Repetição.
 * Variação de casos:
 -Pior caso: O(n) </br>
--Medio caso: 2n + 1 / 2 / n = N
--Melhor caso: O(n)
+-Medio caso: 2n + 1 / 2 / n = N </br>
+-Melhor caso: O(n) </br>
 
 ## Exercício 2:
 ~~~C#
@@ -28,6 +28,6 @@ public int alg2(int[] arr, int x){
 * Operação mais relevante: Repetição
 * Operações: Atribuição, Comparação, Multiplicação, Repetição.
 * Variação de casos:
-Pior caso:
-Medio caso:
-Melhor caso:
+Pior caso: </br>
+Medio caso: </br>
+Melhor caso: </br>
