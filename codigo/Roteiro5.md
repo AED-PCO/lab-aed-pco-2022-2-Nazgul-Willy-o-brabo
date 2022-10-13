@@ -12,7 +12,7 @@ public int alg1(int n){
 * Operação mais relevante: Repetição
 * Operações: Atribuição, Comparação, Multiplicação, Repetição.
 * Variação de casos:
--Pior caso: O(n)
+-Pior caso: O(n) </br>
 -Medio caso: 2n + 1 / 2 / n = N
 -Melhor caso: O(n)
 
