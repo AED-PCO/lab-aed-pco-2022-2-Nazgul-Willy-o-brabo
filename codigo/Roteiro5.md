@@ -10,3 +10,6 @@ public int alg1(int n){
 }
 ~~~
 * Operação mais relevante:
+* Operações:
+* Sequencia e laços:
+* Variação de casos:
