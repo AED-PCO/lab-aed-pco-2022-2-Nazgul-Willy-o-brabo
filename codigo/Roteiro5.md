@@ -9,3 +9,4 @@ public int alg1(int n){
     return res;
 }
 ~~~
+* Operação mais relevante:
