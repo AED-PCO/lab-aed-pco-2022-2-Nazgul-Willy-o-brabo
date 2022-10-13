@@ -3,7 +3,7 @@
 * Tempo de execução: 4042ms <br>
 <br>
 ![image](https://user-images.githubusercontent.com/101759293/195703052-654754fc-1e0e-4068-964f-6a35a2b273bd.png)
-
+<br>
 
 ## Atv02 <br>
 * Tempo de execução: 6174ms <br>
@@ -27,4 +27,10 @@
 <br>
 ![image](https://user-images.githubusercontent.com/101759293/195706539-fddc6768-6557-4a5d-aa35-d4abf607a6c1.png)
 <br>
+
+## Atv06 <br>
+
+* Tempo de execução: 7895ms <br>
+<br>
+![image](https://user-images.githubusercontent.com/101759293/195707780-176d6c4c-fc57-46d1-8d5d-12ef831b50d7.png)
 
