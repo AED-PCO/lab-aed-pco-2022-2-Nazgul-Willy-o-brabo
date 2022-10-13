@@ -32,5 +32,5 @@
 
 * Tempo de execução: 7895ms <br>
 <br>
-![image](https://user-images.githubusercontent.com/101759293/195707780-176d6c4c-fc57-46d1-8d5d-12ef831b50d7.png)
+![image](https://user-images.githubusercontent.com/101759293/195722313-3513cc67-afe1-49bc-ae74-076a5639bdf3.png)
 
