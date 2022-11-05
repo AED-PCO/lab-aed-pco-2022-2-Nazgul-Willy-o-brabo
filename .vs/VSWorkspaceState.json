@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\codigo",
+    "\\codigo\\roteiro6",
+    "\\codigo\\roteiro6\\ConsoleApp4"
   ],
-  "SelectedNode": "\\ConsoleApp4.sln",
+  "SelectedNode": "\\codigo\\roteiro6\\ConsoleApp4\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
