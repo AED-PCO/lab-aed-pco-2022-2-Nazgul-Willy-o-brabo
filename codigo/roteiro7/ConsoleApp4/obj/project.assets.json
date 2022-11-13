@@ -8,23 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\willy\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Willy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\willy\\source\\repos\\ConsoleApp4\\ConsoleApp4\\ConsoleApp4.csproj",
+      "projectUniqueName": "C:\\Users\\Willy\\Source\\Repos\\AED-PCO\\lab-aed-pco-2022-2-Nazgul-Willy-o-brabo\\codigo\\roteiro7\\ConsoleApp4\\ConsoleApp4.csproj",
       "projectName": "ConsoleApp4",
-      "projectPath": "C:\\Users\\willy\\source\\repos\\ConsoleApp4\\ConsoleApp4\\ConsoleApp4.csproj",
-      "packagesPath": "C:\\Users\\willy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\willy\\source\\repos\\ConsoleApp4\\ConsoleApp4\\obj\\",
+      "projectPath": "C:\\Users\\Willy\\Source\\Repos\\AED-PCO\\lab-aed-pco-2022-2-Nazgul-Willy-o-brabo\\codigo\\roteiro7\\ConsoleApp4\\ConsoleApp4.csproj",
+      "packagesPath": "C:\\Users\\Willy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Willy\\Source\\Repos\\AED-PCO\\lab-aed-pco-2022-2-Nazgul-Willy-o-brabo\\codigo\\roteiro7\\ConsoleApp4\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\willy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Willy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -65,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
