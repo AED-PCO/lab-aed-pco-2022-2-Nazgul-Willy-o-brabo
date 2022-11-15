@@ -44,7 +44,7 @@ static void atv01()
         Console.Write("Digite um texto: ");
         string texto = Console.ReadLine();
         string linha = sr.ReadLine();
-        if(texto == linha)
+        if (texto == linha)
         {
             Console.WriteLine("está certo               /igual");
         }
@@ -56,53 +56,60 @@ static void atv01()
         Console.ReadLine();
     }
 }
-static void atv02() {
+static void atv02()
+{
     Console.WriteLine("Dado o codigo a seguir: veja seu retorno");
     Console.WriteLine(funcRec1(6));
 }
-static int funcRec1(int a) {
+static int funcRec1(int a)
+{
     if (a <= 1)
-    return 0;
-    else { 
+        return 0;
+    else
+    {
         return funcRec1((a - 2) + 5);
     }
 }
-static void atv03() { 
+static void atv03()
+{
     Console.WriteLine("inverso de um arquivo e.e");
     StreamReader sr = new StreamReader("C:\\Users\\willy\\source\\repos\\prova\\textoAtv01\\Atv02.txt");
     string linha = sr.ReadLine();
     string inverso = new string(linha.Reverse().ToArray());
     Console.WriteLine(inverso);
 }
-static void atv04() {
+static void atv04()
+{
     Console.WriteLine("gerador de cpf");     // alt+shift+. para selecionar varios elementos iguais e altera-los
     int[] Cpf = new int[11];
-    int dez=0; int onze = 0; int k = 0;
-    while( k < 100){ 
-    Cpf = random();
-    dez = Decimo(Cpf);
-    Cpf[9] = dez;
-    onze = Onze(Cpf);
-    Cpf[10] = onze;
-    for (int i = 0; i < Cpf.Length; i++) {
-        Console.Write(Cpf[i]);   
-    }
+    int dez = 0; int onze = 0; int k = 100;
+    while (k > 0)
+    {
+        Cpf = random();
+        dez = Decimo(Cpf);
+        Cpf[9] = dez;
+        onze = Onze(Cpf);
+        Cpf[10] = onze;
+        for (int i = 0; i < Cpf.Length; i++)
+        {
+            Console.Write(Cpf[i]);
+        }
         Console.Write(" ");
-        k++;
+        k--;
+    }
 }
-}
-static int [] random()
+static int[] random()
 {
     int min = 0, max = 9;
     int[] vetor = new int[11];
     Random ran = new Random();
-    for (int i = 0; i <= vetor.Length-1; i++)
+    for (int i = 0; i <= vetor.Length - 1; i++)
     {
         vetor[i] = ran.Next(min, max);
     }
     return vetor;
 }
-static int Decimo(int [] vet)
+static int Decimo(int[] vet)
 {
     int final = 0;
     int Ref = 10;
@@ -140,10 +147,10 @@ static int Onze(int[] vet)
         final = 11 - resto;
     return final;
 }
-
-static void atv05() {
+static void atv05()
+{
     Console.WriteLine("O codigo a seguir implementa uma função recursiva, descubra qual é o retorno da mesma");
-    int a = 6; int [] vet = new int [7] { 10, 5, 7, 15, 22, 9, 30 };
+    int a = 6; int[] vet = new int[7] { 10, 5, 7, 15, 22, 9, 30 };
     Console.WriteLine(funcao(a, vet));
 }
 static int funcao(int a, int[] v)

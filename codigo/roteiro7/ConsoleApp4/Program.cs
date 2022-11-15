@@ -160,7 +160,6 @@ do
         {
             char Rep;
             int num; int pos = 0;
-            Console.WriteLine(Ref);
             do
             {
                 Console.Write("Deseja selecionar um posição? S/N  ");
@@ -214,12 +213,6 @@ do
         {
             int aux;
             char Op;
-            /*          do
-                        {
-                            Console.Write("voce quer remover por (P)osição ou por (N)umero? ");
-                            Op = char.Parse(Console.ReadLine().ToLower());
-                        } while (Op != 'p' && Op != 'n'); 
-                        if (Op == 'p')*/
             if (Ref > 0)
             {
                 Console.Write("Selecione a posição que deseja remover (1-5): ");
