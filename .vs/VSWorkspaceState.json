@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\codigo",
-    "\\codigo\\roteiro7",
-    "\\codigo\\roteiro7\\ConsoleApp4"
+    "\\codigo\\roteiro10",
+    "\\codigo\\roteiro10\\fila,lista,pilha dinamica",
+    "\\codigo\\roteiro10\\fila,lista,pilha dinamica\\ConsoleApp1",
+    "\\codigo\\roteiro7"
   ],
-  "SelectedNode": "\\codigo\\roteiro7\\ConsoleApp4\\Program.cs",
+  "SelectedNode": "\\codigo\\roteiro10\\fila,lista,pilha dinamica\\ConsoleApp1\\Lista.cs",
   "PreviewInSolutionExplorer": false
 }

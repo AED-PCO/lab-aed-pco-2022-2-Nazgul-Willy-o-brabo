@@ -1,0 +1,15 @@
+C:\Users\Willy\Source\Repos\dinamico\dinamico\bin\Debug\net6.0\dinamico.exe
+C:\Users\Willy\Source\Repos\dinamico\dinamico\bin\Debug\net6.0\dinamico.deps.json
+C:\Users\Willy\Source\Repos\dinamico\dinamico\bin\Debug\net6.0\dinamico.runtimeconfig.json
+C:\Users\Willy\Source\Repos\dinamico\dinamico\bin\Debug\net6.0\dinamico.dll
+C:\Users\Willy\Source\Repos\dinamico\dinamico\bin\Debug\net6.0\dinamico.pdb
+C:\Users\Willy\Source\Repos\dinamico\dinamico\obj\Debug\net6.0\dinamico.csproj.AssemblyReference.cache
+C:\Users\Willy\Source\Repos\dinamico\dinamico\obj\Debug\net6.0\dinamico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Willy\Source\Repos\dinamico\dinamico\obj\Debug\net6.0\dinamico.AssemblyInfoInputs.cache
+C:\Users\Willy\Source\Repos\dinamico\dinamico\obj\Debug\net6.0\dinamico.AssemblyInfo.cs
+C:\Users\Willy\Source\Repos\dinamico\dinamico\obj\Debug\net6.0\dinamico.csproj.CoreCompileInputs.cache
+C:\Users\Willy\Source\Repos\dinamico\dinamico\obj\Debug\net6.0\dinamico.dll
+C:\Users\Willy\Source\Repos\dinamico\dinamico\obj\Debug\net6.0\refint\dinamico.dll
+C:\Users\Willy\Source\Repos\dinamico\dinamico\obj\Debug\net6.0\dinamico.pdb
+C:\Users\Willy\Source\Repos\dinamico\dinamico\obj\Debug\net6.0\dinamico.genruntimeconfig.cache
+C:\Users\Willy\Source\Repos\dinamico\dinamico\obj\Debug\net6.0\ref\dinamico.dll
