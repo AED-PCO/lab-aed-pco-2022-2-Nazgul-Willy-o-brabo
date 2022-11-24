@@ -17,7 +17,11 @@
         {
             public Funcionario funcionario = new Funcionario();
             public Elemento proximo = null;
-        }
+
+       
+    }
+
+    
     
         
 }

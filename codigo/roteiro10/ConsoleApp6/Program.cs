@@ -1,4 +1,5 @@
-﻿using dinamico;
+﻿using ConsoleApp6;
+using dinamico;
 
 string repet;
 do
@@ -13,9 +14,9 @@ do
     }
     else if (op == 2)
     {
-        Pilha();
+        pilha();
     }
-    else if (op == 3) { Lista(); }
+    else if (op == 3) { lista(); }
     else
     {
         Console.WriteLine("Atividade inexistente");
@@ -55,8 +56,10 @@ do
         }
         while (rep == "s");
     }
-    static void Pilha()
+    static void pilha()
     {
+        Elemento primeiro = new Elemento();
+        Elemento ultimo = primeiro;
         string op;
         string rep;
         Console.WriteLine("--PILHA--\n\n");
@@ -66,15 +69,15 @@ do
             op = Console.ReadLine().ToLower();
             if (op == "in")
             {
-
+                Pilha.InserirPilha(ref ultimo);
             }
             else if (op == "re")
             {
-
+                Pilha.RemoverPilha(ref primeiro, ref ultimo);
             }
             else if (op == "vi")
             {
-
+                Fila.MostrarFila(ref primeiro, ref ultimo);
             }
             else
             {
@@ -86,10 +89,13 @@ do
         }
         while (rep == "s");
     }
-    static void Lista()
+    static void lista()
     {
         string op;
         string rep;
+        Elemento primeiro = new Elemento();
+        Elemento ultimo = primeiro;
+
         Console.WriteLine("--LISTA--\n\n");
         do
         {
@@ -97,7 +103,7 @@ do
             op = Console.ReadLine().ToLower();
             if (op == "in")
             {
-
+                Lista.InserirLista();
             }
             else if (op == "re")
             {
