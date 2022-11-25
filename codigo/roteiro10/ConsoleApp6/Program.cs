@@ -5,7 +5,7 @@ string repet;
 do
 {
     Console.WriteLine("Estrutura de dados:");
-    Console.WriteLine("Selecione a atividade: \n1 = lista\n2 = pilha\n3 = fila");
+    Console.WriteLine("Selecione a atividade: \n1 = fila\n2 = pilha\n3 = lista");
     int op = int.Parse(Console.ReadLine());
     Console.Clear();
     if (op == 1)
@@ -103,15 +103,23 @@ do
             op = Console.ReadLine().ToLower();
             if (op == "in")
             {
-                Lista.InserirLista();
+                Console.WriteLine("Digite o nome do funcionario que deseja adicionar na fila");
+                string nome = Console.ReadLine();
+                Console.WriteLine("Agora digite a matricula do funcionario");
+                int id = int.Parse(Console.ReadLine());
+                Elemento novo = new Elemento();
+                novo.funcionario.Nome = nome;
+                novo.funcionario.Id = id;
+                Lista.InserirLista(ref primeiro, ref ultimo, ref novo);
+
             }
             else if (op == "re")
             {
-
+                Lista.RemoverLista(ref primeiro, ref ultimo);
             }
             else if (op == "vi")
             {
-
+                Fila.MostrarFila(ref primeiro, ref ultimo);
             }
             else
             {
