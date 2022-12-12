@@ -62,8 +62,11 @@ O metodo de inserção faz o usuario ter a opção de escolher ou não a posiç�
 
 </br> 
 Será inserido então o valor 999 na primeira posição
+
 ![image](https://user-images.githubusercontent.com/101759293/207017578-94930e70-bd34-4837-8e8a-3263abe57775.png)
-</br>
+
+![image](https://user-images.githubusercontent.com/101759293/207017631-2a5b50d4-f4b3-4a11-922a-d6de7418dd08.png)
+
 
 *Remoção*
 --
