@@ -18,7 +18,8 @@ Informação errada
 
 ![image](https://user-images.githubusercontent.com/101759293/207008840-37ca7c1b-985b-45f4-9559-da1bac7f6ca7.png)</br>
 Informação correta 
-</br>
+
+
 *Atividade 02*
   Analise de codigo
 -----------------
