@@ -10,12 +10,15 @@ O Programa irá pedir ao usuario que ele digite alguma coisa, e, ao receber essa
 >O(n) por se tratar de nenhuma repetição
 *em execução*
 
-![image](https://user-images.githubusercontent.com/101759293/207008453-b45fbe27-e4c8-4080-b6a1-8976757f6e2b.png)/br
-Informação do arquivo /\
+![image](https://user-images.githubusercontent.com/101759293/207009179-52bd6fb6-6262-46b8-b887-3563835a0ed4.png)
+Informação do arquivo 
 
-![image](https://user-images.githubusercontent.com/101759293/207008694-ad2f0ed4-4ed4-4c7a-8be4-4ed95a3a2099.png)/br
-Informação errada /\
+![image](https://user-images.githubusercontent.com/101759293/207008694-ad2f0ed4-4ed4-4c7a-8be4-4ed95a3a2099.png)
+Informação errada 
 
-![image](https://user-images.githubusercontent.com/101759293/207008840-37ca7c1b-985b-45f4-9559-da1bac7f6ca7.png)/br
-Informação correta /\
+![image](https://user-images.githubusercontent.com/101759293/207008840-37ca7c1b-985b-45f4-9559-da1bac7f6ca7.png)
+Informação correta 
 
+*Atividade 02*
+  Enunciado
+-----------------
