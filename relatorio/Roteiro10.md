@@ -10,6 +10,7 @@ Nesta estrategia então basicamente será utilizado um apontador que aponta para
 *Fila*
 --
 A fila consiste em utilizar a estrategia de primeiro a entrar e primeiro a sair, porém, diferente da outra fila, este metodo foi utilizado de modo dinamico, ou seja, sem limite de inserções
+
 *Inserção*
 --
 A inserção acontece de forma dinamica, ou seja, ele utiliza de um ponteiro de referencia chamado .proximo onde ele tem a função de apontar para nulo, e após isto, ele insere um novo bloco de informações nessa antigo nulo, dando um novo bloco de inserção
@@ -32,6 +33,7 @@ A visualização acontece enquanto o sistema percorre os elementos inseridos at�
 
 *pilha*
 --
+
 A pilha consiste em utilizar a estrategia de primeiro a entrar e ultimo a sair, porém, diferente da outra pilha, este metodo foi utilizado de modo dinamico, ou seja, sem limite de inserções
 
 *Inserção*
@@ -49,6 +51,7 @@ A remoção vai acontecer de forma em que, o sistema vai verificar os blocos de 
 
 *Visualização*
 --
+
 A visualização acontece enquanto o sistema percorre os elementos inseridos até encontrar o valor nulo, após isto ele printa na tela.
 
 ![image](https://user-images.githubusercontent.com/101759293/207182255-962b61af-aaa3-49f9-adc5-09180d717ee5.png)
