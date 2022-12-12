@@ -70,3 +70,20 @@ Para o cenario acima, o algoritimo mais adequado seria algum relacionado a divis
 *Execução*
 --
 ![image](https://user-images.githubusercontent.com/101759293/207013234-2ebc95bb-b6c3-4fa4-aab4-69800a6ec108.png)
+
+*Atividade 05*
+  Sobre
+----
+A atividade apresenta um alogitimo que deve ser analisado
+![image](https://user-images.githubusercontent.com/101759293/207013524-08366789-0a00-44e8-bada-8174c94f132e.png)
+
+*Retorno*
+--
+A função irá uma chamada recursiva se iniciando pelo numero 6, decrementando até chegar no valor 6>5>4>3>2>*1*, Após isso, ele cai no retorno da recursividade, retornando 10.
+porém ao ir desempilhando, o valor no qual ele irá retornar é o valor *22*.
+
+*Execução*
+--
+![image](https://user-images.githubusercontent.com/101759293/207014150-9380a1a1-43cf-4ad9-a098-25ab7045fb9d.png)
+
+  
