@@ -20,5 +20,18 @@ Informação errada
 Informação correta 
 
 *Atividade 02*
-  Enunciado
+  Analise de codigo
 -----------------
+![image](https://user-images.githubusercontent.com/101759293/207009535-826622ad-32c1-49a1-a230-1241992a85dd.png)
+
+*Funcionalidade do codigo*
+--
+O codigo apresentado se trata de uma função recursiva onde que, tem a condição de parada o valor recebido menor ou igual a 1. Caso o valor inicial seja menor ou igual, a recursividade não acontece, caso contrario, irá entrar na condição
+
+*codigo*
+--
+![image](https://user-images.githubusercontent.com/101759293/207010161-9ca8bb83-da99-45c0-9d78-53bc375a19ec.png)
+
+
+*Atividade 03*
+
