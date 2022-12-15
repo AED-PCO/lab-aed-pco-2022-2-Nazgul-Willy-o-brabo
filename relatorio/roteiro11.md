@@ -1,5 +1,4 @@
 # Roteiro 11:
-## Lista duplamente dinamica:
 
 *Lista duplamente Dinamica*
 --
